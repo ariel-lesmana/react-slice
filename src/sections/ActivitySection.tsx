@@ -1,5 +1,4 @@
 import React from 'react';
-import SectionHeader from '../components/SectionHeader';
 import ActivityItem from '../components/ActivityItem';
 
 const ActivitySection: React.FC = () => {

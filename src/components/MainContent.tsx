@@ -15,7 +15,6 @@ const MainContent: React.FC = () => {
             <VideosSection />
           </section>
 
-          {/* Activity Section - Show on mobile, hide on desktop */}
           <section className="lg:hidden">
             <ActivitySection />
           </section>
@@ -32,12 +31,10 @@ const MainContent: React.FC = () => {
         </div>
 
         <div className="hidden lg:block lg:col-span-1 space-y-6">
-          {/* Activity Section - Hide on mobile, show on desktop */}
           <section>
             <ActivitySection />
           </section>
 
-          {/* Channels Section */}
           <section>
             <ChannelsSection />
           </section>
